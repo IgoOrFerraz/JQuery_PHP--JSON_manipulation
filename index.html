@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Turim_Fase2_Teste</title>
+        <meta charset="UTF-8">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./app.js"></script>
+
+    </head>
+
+    <body>
+        <form action="princ.php" method="POST">
+            <!-- Lateral Esquerdo -->
+            <section style="width: 25%; float: left;">
+                <!-- Menu Btns -->
+                <div>
+                    <input type="button" id="btn_gravar" value="Gravar">
+                    <input type="button" id="btn_ler" value="Ler">
+                </div>
+
+                <!-- Input Inserir Nome -->
+                <div>
+                    <span>Nome</span>
+                    <input type="text" id="text_incluir">
+                    <input type="button" id="btn_incluirPai" value="Incluir">
+                </div> 
+
+                <!-- Listagem -->
+                <div>
+                    <div class="titulo"><span>Pessoas</span></div>
+                    <div id="registers"></div>
+                </div>
+
+            </section>
+
+            <!-- Lateral Direito -->
+            <section id='latdireito' style="width: 74%; float: right;">
+                <textarea name="textJson" id="textJson" cols="60" rows="30"></textarea>
+            </section>
+        </form>
+    </body>
+</html>

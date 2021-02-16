@@ -1,0 +1,62 @@
+input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.titulo{
+    display: block;
+    background-color: #A9A9A9;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+div #registers{
+    display: block;
+}
+
+div .registro{
+    display: flex;
+    background-color: lightgray;
+}
+
+div .divPai{
+    width: 75%;
+    border: 1px solid white;
+
+    padding: 5px 3px;
+}
+
+div .divRemoverPai{
+    width: 80px;
+    border: 1px solid white;
+
+    padding: 5px 3px;
+}
+
+div .divAddFilho{
+    display: flex;
+    justify-content: center;
+}
+
+div .registroFilhosGeral{
+    display: block;
+    background-color: #F5F5F5;
+}
+
+div .registroFilho{
+    display: flex;
+}
+
+div .registroFilhoNome{
+    width: 75%;
+    border: 1px solid white;
+
+    padding: 5px 3px;
+}
+
+div .divRemoverFilho{
+    width: 80px;
+    border: 1px solid white;
+
+    padding: 5px 3px;
+}
