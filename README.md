@@ -1,4 +1,4 @@
-# JQuery_PHP--JSON_manipulation
+# JQuery & PHP - JSON Manipulation
  
 Project with the objective of manipulating JSON strings on the client side, presenting their changes in real time, from a parent-child relationship
 
